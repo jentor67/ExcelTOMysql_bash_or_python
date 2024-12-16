@@ -1,0 +1,11 @@
+Read file transactions1.xlsx
+--- 44.96604871749878 seconds To Read file 1---
+Read file transactions2.xlsx
+--- 36.992777824401855 seconds To Read file 2---
+Read file transactions3.xlsx
+--- 31.8946053981781 seconds To Read file 3---
+Read file transactions4.xlsx
+--- 20.948246955871582 seconds To Read file 4---
+--- 47.81173658370972 seconds To upload DB---
+--- 182.61399745941162 seconds Total time---
+

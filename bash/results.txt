@@ -1,0 +1,15 @@
+Convet file transactions1.xlsx to csv
+---  31.396081377  seconds to convert file to csv
+Convet file transactions2.xlsx to csv
+---  25.997236711  seconds to convert file to csv
+Convet file transactions3.xlsx to csv
+---  22.386705742  seconds to convert file to csv
+Convet file transactions4.xlsx to csv
+---  14.882316469  seconds to convert file to csv
+---  2.983625412  seconds to remove first line
+Concantanate file
+---  1.411580981  seconds to concantinate file
+Upload to Mysql
+mysql: [Warning] Using a password on the command line interface can be insecure.
+---  10.729285367  seconds to upload to MySql
+---  109.801537904  seconds to complete process
