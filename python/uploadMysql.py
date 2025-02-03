@@ -13,7 +13,7 @@ def readIntoDF(path,file):
 
 
 #read password file and remove \n'
-db_password = open('bin/password.txt', 'r').read().replace('\n','')
+db_password = open('/raidLocal/jmajor/bin/password.txt', 'r').read().replace('\n','')
 
 db_login = 'jmajor' 
 db_ip_address = 'localhost'  

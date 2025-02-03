@@ -30,10 +30,12 @@ cat output1.csv output2.csv output3.csv output4.csv > output.csv
 # remove working files
 rm output1.csv output2.csv output3.csv output4.csv
 
-PASSWORD=$(<bin/password.txt)
+PASSWORD=$(</raidLocal/jmajor/bin/password.txt)
 
 # import csv into mysql
 mysql -u jmajor -p"$PASSWORD" < importCSV.sql 
+
+rm output.csv
 
 end_time=`date +%s.%N`
 echo "--- " $(echo "$end_time - $start_time" | bc -l ) " seconds to complete process"
